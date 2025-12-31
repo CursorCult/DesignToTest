@@ -1,8 +1,6 @@
-# ⚠️ DEPRECATED
+# DEPRECATED
 
-This rule has been replaced by [Hodor](https://github.com/CursorCult/Hodor).
-
-Hodor provides a unified "golden thread" traceability rule that subsumes DesignToTest.
+This rule is deprecated.
 
 ---
 
@@ -25,13 +23,13 @@ Rule file format reference: https://cursor.com/docs/context/rules#rulemd-file-fo
 
 - Writing tests currently requires large fixtures, mocks, or environment setup.
 - You want failing tests to point directly to the responsible unit.
-- You’re willing to expose more surface area to enable high‑signal tests.
+- You're willing to expose more surface area to enable high-signal tests.
 
 **What it enforces**
 
 - Core logic is reachable through small, explicit, deterministic interfaces.
 - Avoid monolithic units that require heavy setup/teardown to test.
-- Promote internal “engine/kernel” operations to public or protected when it materially improves testability.
+- Promote internal "engine/kernel" operations to public or protected when it materially improves testability.
 
 **Credits**
 
