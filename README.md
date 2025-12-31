@@ -1,6 +1,8 @@
 # DEPRECATED
 
-This rule is deprecated.
+This rule has been replaced by [Hodor](https://github.com/CursorCult/Hodor).
+
+Hodor provides a unified "golden thread" traceability rule that subsumes DesignToTest.
 
 ---
 
